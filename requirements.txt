@@ -1,0 +1,7 @@
+crewai
+langchain-google-genai
+fpdf2
+streamlit
+python-dotenv
+requests
+pydantic
