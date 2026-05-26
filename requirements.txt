@@ -5,3 +5,5 @@ streamlit
 python-dotenv
 requests
 pydantic
+gspread 
+google-auth
