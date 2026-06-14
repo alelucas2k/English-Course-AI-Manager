@@ -12,10 +12,10 @@ from crewai import LLM
 # Carrega as variáveis do arquivo .env
 load_dotenv()
 
-# Inicialização do Modelo Gemini
+# Inicialização do Modelo Gemini via OpenRouter
 gemini_llm = LLM(
-    model="gemini/gemini-2.5-flash-lite",
-    api_key=os.getenv("GEMINI_API_KEY"),
+    model="openrouter/google/gemini-2.5-flash", # Prefixo openrouter/ adicionado
+    api_key=os.getenv("OPENROUTER_API_KEY"),    # Puxando a nova chave do .env
     temperature=0.3
 )
 
